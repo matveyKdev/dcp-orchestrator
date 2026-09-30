@@ -1,0 +1,5 @@
+service:
+  name:
+  registry-directory:
+  deploy-tag:
+  replicas:
