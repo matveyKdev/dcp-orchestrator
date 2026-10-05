@@ -23,6 +23,6 @@ func main() {
 		panic(err)
 	}
 
-	useCase := application.NewUseCase(&repo)
+	useCase := application.NewUseCase(repo)
 	_ = delivery.New(useCase)
 }

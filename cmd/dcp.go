@@ -1,7 +1,7 @@
 package main
 
 import (
-	"k8s-pet-project/internal/cloudapi/timeweb"
+	"k8s-pet-project/shared/cloudapi/timeweb"
 	"net/http"
 	"os"
 	"time"
